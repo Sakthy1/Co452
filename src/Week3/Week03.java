@@ -1,6 +1,7 @@
 package Week3;
 
-public class Week03 
+public class Week03
+
 {
     public static final String CONSOLE_CLEAR = "\033[H\033[2J";
     public static void main(String[] args)
@@ -11,10 +12,15 @@ public class Week03
         System.out.println("CO452 Programming Concepts 2022/23");
         System.out.println("==================================");
         System.out.println();
-        System.out.println(" Week 3 Classes, Objects, Constructors ");
+        System.out.println("  Week 3 lasses, Objects, Constructors ");
         System.out.println();
         System.out.println(" by Nicholas Day and Derek Peacock");
+        System.out.println("  Week 3 ");
         System.out.println();
-    }     
-    
+
+        Student Sakthy= new Student(22210, "Sakthy");
+        Sakthy.display();
+    }
+
+          
 }
