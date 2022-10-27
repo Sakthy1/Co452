@@ -19,6 +19,8 @@ public class Week02
         System.out.println(" by Nicholas Day and Derek Peacock");
         System.out.println();
 
+        int id;
+
         
     }     
 }
