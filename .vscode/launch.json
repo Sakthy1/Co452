@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Week04",
+            "request": "launch",
+            "mainClass": "Week4.Week04",
+            "projectName": "Co452_1d896007"
+        },
+        {
+            "type": "java",
             "name": "Launch Week03",
             "request": "launch",
             "mainClass": "Week3.Week03",
