@@ -41,14 +41,12 @@ Artist.add(toxic);
 Artist.add(smoothcriminal);
 Artist.add(seasonofthewith);
 
-
-
+Artist.remove(seasonofthewith);
+Artist.remove(unholy);
 for(Artist song:Artist)
 
   song.Print();
 }
    
-//System.out.Println("remove songs");
-//Artist.remove(index:5);
 
 }  
