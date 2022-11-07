@@ -11,16 +11,16 @@ public class Song{
 
 Artist ghostbuster=new Artist("Ghost Buster","Ray Parker",1000000);
 Artist thriller=new Artist("Thriller","Macheljackson",2000000);
-Artist spookyscaryskeleton=new Artist("spookyscaryskeleton","Andrew gold",3000000);
-Artist somebodywatchingme=new Artist("somebodywatchingme","Rockwell",4000000);
-Artist thisishalloween=new Artist("thisishalloween","The citizens of Halloween",5000000);
-Artist monstermash=new Artist("Monstermash","Boris",6000000);
+Artist spookyscaryskeleton=new Artist("spookyscary","Andrew gold",3000000);
+Artist somebodywatchingme=new Artist("somebody","Rockwell    ",4000000);
+Artist thisishalloween=new Artist("Thisishallow","Citizensof",5000000);
+Artist monstermash=new Artist("Monstermash","Boris    ",6000000);
 Artist superfreak=new Artist("SuperFreak","Rick James",7000000);
 Artist unholy=new Artist("Unholy","Sam smith",8000000);
-Artist sweetbutpsycho=new Artist("Sweet but Psyco","Ava Max",9000000);
+Artist sweetbutpsycho=new Artist("SweetbutPsy","Ava Max   ",9000000);
 Artist toxic=new Artist("Toxic","Ray Parker",1000000);
-Artist smoothcriminal=new Artist("Smooth criminal","Macheal Jackson",1100000);
-Artist seasonofthewith=new Artist("Seasonofthewith","Lana Del Roy",1200000);
+Artist smoothcriminal=new Artist("Smoothcrim","Macheal Jackson",1100000);
+Artist seasonofthewith=new Artist("Seasonofthe","Lana Del Roy",1200000);
 
 
 
@@ -47,4 +47,8 @@ for(Artist song:Artist)
 
   song.Print();
 }
-   }
+   
+//System.out.Println("remove songs");
+//Artist.remove(index:5);
+
+}  

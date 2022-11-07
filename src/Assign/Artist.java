@@ -13,9 +13,9 @@ public Artist (String songname, String  artistname,int playcount)
 }
 public void Print()
 {
-    System.out.print("songname"+this.songname);
-    System.out.print("\tartistname"+this.artistname);
-    System.out.println("\tplaycount"+this.playcount);
+    System.out.print("songname:    "+this.songname);
+    System.out.print("      \tartistname:    "+this.artistname);
+    System.out.println("\tplaycount:        "+this.playcount);
 }
     
    
